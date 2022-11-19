@@ -11,7 +11,7 @@ class Ranger extends Archetype {
     Ranger.instanceCounter += 1;
   }
 
-  get energyType(): string {
+  get energyType(): EnergyType {
     return this._energyType;
   }
 

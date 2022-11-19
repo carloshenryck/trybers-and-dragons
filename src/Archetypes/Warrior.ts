@@ -11,7 +11,7 @@ class Warrior extends Archetype {
     Warrior.instanceCounter += 1;
   }
 
-  get energyType(): string {
+  get energyType(): EnergyType {
     return this._energyType;
   }
 

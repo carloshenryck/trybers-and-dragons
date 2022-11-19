@@ -1,3 +1,5 @@
+import { EnergyType } from '../Energy';
+
 abstract class Archetype {
   readonly name: string;
   readonly special: number;
@@ -9,7 +11,7 @@ abstract class Archetype {
     this.cost = 0;
   }
 
-  abstract get energyType(): string;
+  abstract get energyType(): EnergyType;
 
   static createdArchetypeInstances(): number {
     throw new Error('Not implemented');
