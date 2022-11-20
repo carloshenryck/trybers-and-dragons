@@ -13,7 +13,7 @@ class PVP extends Battle {
         this.player2.attack(this.player1);
       }
     }
-    return this.player.lifePoints === -1 ? -1 : 1;
+    return super.fight();
   }
 }
 
