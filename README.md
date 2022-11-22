@@ -40,7 +40,7 @@ Join docker container
 docker exec -it trybers_and_dragons bash
 ```
 
-#### If you're using docker, run these commands inside your docker container
+> If you're using docker, run these commands inside your docker container
 
 Install dependences
 ```bash
